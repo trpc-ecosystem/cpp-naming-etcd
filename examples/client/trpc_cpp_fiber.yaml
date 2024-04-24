@@ -1,0 +1,13 @@
+global:
+  threadmodel:
+    fiber:
+      - instance_name: fiber_instance
+        concurrency_hint: 4
+        scheduling_group_size: 4
+        reactor_num_per_scheduling_group: 1
+plugins:
+  selector: #Route Select Configuration
+    etcd: 
+      - name: trpc.test.helloworld.Greeter
+        prefix: test_trpc
+        endpoint: http://127.0.0.1:2379
