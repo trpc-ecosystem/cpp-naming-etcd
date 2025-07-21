@@ -114,7 +114,7 @@ New files that you contribute should use the standard copyright header:
 //
 // Tencent is pleased to support the open source community by making tRPC available.
 //
-// Copyright (C) 2024 THL A29 Limited, a Tencent company.
+// Copyright (C) 2024 Tencent.
 // All rights reserved.
 //
 // If you have downloaded a copy of the tRPC source code from Tencent,
